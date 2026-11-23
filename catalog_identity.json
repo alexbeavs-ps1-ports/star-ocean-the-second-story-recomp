@@ -1,0 +1,75 @@
+{
+  "format_version": 1,
+  "game": {
+    "name": "Star Ocean - The Second Story",
+    "id": "SCES-02159",
+    "boot_exe": "SCES_021.59"
+  },
+  "marketing": {
+    "description": "",
+    "publisher": "",
+    "year": "",
+    "region": "Europe",
+    "players": 1
+  },
+  "rom_identity": {
+    "cue_name": "Star Ocean - The Second Story (Europe) (Disc 1).cue",
+    "bin_name": "Star Ocean - The Second Story (Europe) (Disc 1).bin",
+    "track_counts": [
+      1,
+      1
+    ],
+    "require_cue": true,
+    "data_track": {
+      "size": 556266816,
+      "md5": "3ce073419bd00e8dc956dd7628bcb685",
+      "sha1": "ec50870f552c30a2b64e67815ebc4cc8ca5de516",
+      "crc32": "70b5a08f"
+    },
+    "disc_fp": "26a4ea5704cc4e93323f3645c549f95cd0670333f6de1be1686d042fcac9cd7d",
+    "discs": [
+      {
+        "index": 1,
+        "cue_name": "Star Ocean - The Second Story (Europe) (Disc 1).cue",
+        "bin_name": "Star Ocean - The Second Story (Europe) (Disc 1).bin",
+        "size": 556266816,
+        "md5": "3ce073419bd00e8dc956dd7628bcb685",
+        "sha1": "ec50870f552c30a2b64e67815ebc4cc8ca5de516",
+        "crc32": "70b5a08f",
+        "track_count": 1,
+        "serial": "SCES-02159",
+        "disc_fp": "26a4ea5704cc4e93323f3645c549f95cd0670333f6de1be1686d042fcac9cd7d"
+      },
+      {
+        "index": 2,
+        "cue_name": "Star Ocean - The Second Story (Europe) (Disc 2).cue",
+        "bin_name": "Star Ocean - The Second Story (Europe) (Disc 2).bin",
+        "size": 723284688,
+        "md5": "9c6363f30fb407299a2bc7012ef39cf3",
+        "sha1": "75985e3ff9b55e95ab4649915746abfd228e03c3",
+        "crc32": "61b85cf3",
+        "track_count": 1,
+        "serial": "SCES-12159",
+        "disc_fp": "695f7f95f9c67f179749330fb8700b34ecea68c03a63f5cb0ae675ba9a46ea55"
+      }
+    ]
+  },
+  "exe": {
+    "load_address": "0x80010000",
+    "entry_pc": "0x80010008",
+    "text_size": "0x00020000",
+    "stack_base": "0x801FFFF0"
+  },
+  "seeds": {
+    "count": 318,
+    "source": "boot_exe_jal"
+  },
+  "warnings": [
+    "cue has only 1 TRACK — Track-01-only dumps fail multi-track netplay/catalog gates; prefer a full Redump cue."
+  ],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}

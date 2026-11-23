@@ -1,0 +1,13 @@
+{
+  "$schema": "https://recomp.fyi/schema/v1.json",
+  "game": "Star Ocean - The Second Story",
+  "system": "PS1",
+  "type": "recomp",
+  "toolchain": "psxrecomp",
+  "status": "exploring",
+  "project": "star-ocean-the-second-story-recomp",
+  "original": {
+    "region": "Europe",
+    "serial": "SCES-02159"
+  }
+}
